@@ -8,13 +8,13 @@ Add the following libraries to your "Link Binary with Libraries":
 - [x] `libc++`
 - [x] `libz`
 
-Add "URL Schema" as your app id for "URL type" in Targets > info, See 
+Add "URL Schema" as your app id for "URL type" in Targets > info, See
 the following screenshot for the view on your XCode:
 
-![Set URL Schema in XCode](https://res.wx.qq.com/open/zh_CN/htmledition/res/img/pic/app-access-guide/ios/image0042168b9.jpg)
+![Set URL Schema in XCode](https://pay.weixin.qq.com/wiki/doc/api/img/chapter8_5_1.png)
 
-On iOS 9+, add `wechat` and `weixin` into `LSApplicationQueriesSchemes` in 
-`Targets` > `info` > `Custom iOS Target Properties`. Or edit `Info.plist` 
+On iOS 9+, add `wechat` and `weixin` into `LSApplicationQueriesSchemes` in
+`Targets` > `info` > `Custom iOS Target Properties`. Or edit `Info.plist`
 then add:
 
 ```xml
